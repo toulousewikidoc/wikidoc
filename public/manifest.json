@@ -1,0 +1,30 @@
+{
+  "name": "Wikidoc Ocitanie et langue occitane",
+  "short_name": "Wikidoc",
+  "description": "Wikidoc, La plateforme collaborative de l'Occitanie et de la langue occitane",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#D0F0C0",
+  "theme_color": "#2093AD",
+  "icons": [
+    {
+      "src": "/logo_wikidoc_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo_wikidoc_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo_wikidoc_512Mask.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

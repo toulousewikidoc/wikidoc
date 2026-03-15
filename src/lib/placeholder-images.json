@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-occitanie",
+      "description": "Vue panoramique des paysages d'Occitanie",
+      "imageUrl": "https://picsum.photos/seed/occitanie1/1200/600",
+      "imageHint": "landscape occitanie"
+    },
+    {
+      "id": "toulouse-pink",
+      "description": "Les briques roses de Toulouse au coucher du soleil",
+      "imageUrl": "https://picsum.photos/seed/toulouse/800/600",
+      "imageHint": "toulouse architecture"
+    },
+    {
+      "id": "hiking-pyrenees",
+      "description": "Randonnée dans les Pyrénées",
+      "imageUrl": "https://picsum.photos/seed/pyrenees/800/600",
+      "imageHint": "pyrenees mountains"
+    },
+    {
+      "id": "carcassonne",
+      "description": "Cité de Carcassonne",
+      "imageUrl": "https://picsum.photos/seed/carcassonne/800/600",
+      "imageHint": "carcassonne medieval"
+    }
+  ]
+}
