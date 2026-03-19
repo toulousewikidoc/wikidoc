@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Sparkles, Save, Eye, MapPin, Image as ImageIcon, History, Languages, FileText, Layout, Copy } from 'lucide-react';
-import { aiArticleAuthoringAssistant } from '@/ai/flows/ai-article-authoring-assistant';
+import { runAiAssistant } from '@/app/actions/ai';
 import { useToast } from '@/hooks/use-toast';
 import { LANGUAGES, Language, ArticleTemplate } from '@/types';
 import { WIKIDOC_CATEGORIES } from '@/lib/categories';
@@ -50,7 +50,7 @@ export default function EditorPage() {
 
     setIsAiLoading(true);
     try {
-      const result = await aiArticleAuthoringAssistant({ 
+      const result = await runAiAssistant({
         articleContent: content,
         language: language,
         userInstructions: aiInstructions
